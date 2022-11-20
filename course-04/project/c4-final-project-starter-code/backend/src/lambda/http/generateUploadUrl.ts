@@ -5,8 +5,6 @@ import * as middy from 'middy'
 import { cors, httpErrorHandler } from 'middy/middlewares'
 import * as uuid from 'uuid'
 
-// import { createAttachmentPresignedUrl } from '../../helpers/todos'
-// import { getUserId } from '../utils'
 import { buildFileDownloadUrl, createAttachmentPresignedUrl } from '../../helpers/attachmentUtils'
 import { setTodoAttachmentUrl } from '../../helpers/todos'
 import { getUserId } from '../utils'
